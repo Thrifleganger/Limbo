@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<JUCERPROJECT id="NF94Wi" name="Limbo" projectType="guiapp" jucerVersion="5.4.3"
+              displaySplashScreen="1" reportAppUsage="1" splashScreenColour="Dark"
+              version="1.0.0" bundleIdentifier="com.yourcompany.Limbo" includeBinaryInAppConfig="1">
+  <MAINGROUP id="knlCB5" name="Limbo">
+    <GROUP id="{1CA2ABF7-4BF2-985F-AFFF-4F2F5794826E}" name="Source">
+      <GROUP id="{2A87BAC4-29A7-FFB8-116D-46BDB4B8BA5A}" name="Resources">
+        <GROUP id="{6D5EC750-CC7A-B7A0-2C1A-0D12A29F7AAD}" name="Assets">
+          <FILE id="kvrIit" name="Limbo-Page3.png" compile="0" resource="1" file="../../../Documents/Files from Windows/Cabbage/Augmentation/Assets/Limbo-Page3.png"/>
+          <FILE id="gj8JI6" name="MainButtonOff.png" compile="0" resource="1"
+                file="../../../Dropbox/Mac Share/Juce Projects/Limbo/Assets/MainButtonOff.png"/>
+          <FILE id="Uo8Euz" name="MainButtonOn.png" compile="0" resource="1"
+                file="../../../Dropbox/Mac Share/Juce Projects/Limbo/Assets/MainButtonOn.png"/>
+        </GROUP>
+      </GROUP>
+      <GROUP id="{06853DE6-C5FB-EE25-08C3-053804326747}" name="GuiComponents">
+        <GROUP id="{4FCE0165-C31E-5818-0A06-3C5DFD6E04CE}" name="Models">
+          <FILE id="tKl7XX" name="ComponentModel.h" compile="0" resource="0"
+                file="Source/ComponentModel.h"/>
+          <FILE id="vPfBsk" name="ComponentType.h" compile="0" resource="0" file="Source/ComponentType.h"/>
+          <FILE id="iZYkWS" name="LabelModel.h" compile="0" resource="0" file="Source/LabelModel.h"/>
+          <FILE id="KfMY6M" name="SliderModel.h" compile="0" resource="0" file="Source/SliderModel.h"/>
+          <FILE id="GjqLGM" name="SnapToGridBehavior.h" compile="0" resource="0"
+                file="Source/SnapToGridBehavior.h"/>
+          <FILE id="X9xQPE" name="ToggleButtonModel.h" compile="0" resource="0"
+                file="Source/ToggleButtonModel.h"/>
+        </GROUP>
+        <GROUP id="{5F4234A4-0D28-BA13-33AF-50AEDC956AD7}" name="Views">
+          <GROUP id="{3D570548-86E0-0B3C-934B-40239B50D8C4}" name="WaveformView">
+            <FILE id="R2kmkp" name="MasterEffectToggleButtonView.cpp" compile="1"
+                  resource="0" file="Source/MasterEffectToggleButtonView.cpp"/>
+            <FILE id="VmCgwh" name="WaveformPageView.cpp" compile="1" resource="0"
+                  file="Source/WaveformPageView.cpp"/>
+          </GROUP>
+          <GROUP id="{53196327-5A50-663D-98A2-4BE7E7D86FF6}" name="Implementation">
+            <FILE id="P9RoLd" name="MasterToggleButtonConfigurer.h" compile="1"
+                  resource="0" file="Source/MasterToggleButtonConfigurer.h"/>
+            <FILE id="qnhBfF" name="MasterToggleButtonOrienter.h" compile="1" resource="0"
+                  file="Source/MasterToggleButtonOrienter.h"/>
+            <FILE id="C2ivMa" name="SliderAndLabelConfigurer.h" compile="1" resource="0"
+                  file="Source/SliderAndLabelConfigurer.h"/>
+            <FILE id="pUECQm" name="SliderAndLabelInterleavedColumnAlignedOrienter.h"
+                  compile="1" resource="0" file="Source/SliderAndLabelInterleavedColumnAlignedOrienter.h"/>
+          </GROUP>
+          <GROUP id="{F8DB7DE5-2678-15DC-7F8D-3E79B96D1EC9}" name="Abstraction">
+            <FILE id="JstnSu" name="AbstractViewConfigurer.h" compile="0" resource="0"
+                  file="Source/AbstractViewConfigurer.h"/>
+            <FILE id="d1Df01" name="IComponentOrienter.h" compile="0" resource="0"
+                  file="Source/IComponentOrienter.h"/>
+            <FILE id="JbYXUy" name="IComponentConfigurer.h" compile="0" resource="0"
+                  file="Source/IComponentConfigurer.h"/>
+            <FILE id="SWOWwm" name="SliderConfigurationAbstractView.cpp" compile="1"
+                  resource="0" file="Source/SliderConfigurationAbstractView.cpp"/>
+          </GROUP>
+          <GROUP id="{4A75A4DF-EAE6-62AE-A518-FD3939581DBF}" name="ConfigurationView">
+            <GROUP id="{08E391B8-C505-B987-75AF-2AD16C0C3A4A}" name="SubConfigurations">
+              <FILE id="Cl8HZI" name="DelaySliderGroupView.cpp" compile="1" resource="0"
+                    file="Source/DelaySliderGroupView.cpp"/>
+              <FILE id="AusFQj" name="DroneSliderGroupView.cpp" compile="1" resource="0"
+                    file="Source/DroneSliderGroupView.cpp"/>
+              <FILE id="xDNWMG" name="GlitchSliderGroupView.cpp" compile="1" resource="0"
+                    file="Source/GlitchSliderGroupView.cpp"/>
+              <FILE id="JZiIwX" name="PlaybackSliderGroupView.cpp" compile="1" resource="0"
+                    file="Source/PlaybackSliderGroupView.cpp"/>
+              <FILE id="lzbG4b" name="ReverbSliderGroupView.cpp" compile="1" resource="0"
+                    file="Source/ReverbSliderGroupView.cpp"/>
+            </GROUP>
+            <FILE id="NUXbFW" name="GlobalEffectConfigurationView.cpp" compile="1"
+                  resource="0" file="Source/GlobalEffectConfigurationView.cpp"/>
+          </GROUP>
+          <FILE id="uBEmw3" name="BlackSceen.cpp" compile="1" resource="0" file="Source/BlackSceen.cpp"/>
+          <FILE id="Y4I2o9" name="MainToggleButtonView.cpp" compile="1" resource="0"
+                file="Source/MainToggleButtonView.cpp"/>
+          <FILE id="lvI2HW" name="TestSwiper.cpp" compile="1" resource="0" file="Source/TestSwiper.cpp"/>
+        </GROUP>
+      </GROUP>
+      <FILE id="FhA0tj" name="TestComponent.cpp" compile="1" resource="0"
+            file="Source/TestComponent.cpp"/>
+      <FILE id="QlQu8c" name="Gui.cpp" compile="1" resource="0" file="Source/Gui.cpp"/>
+      <FILE id="MEqsaF" name="Gui.h" compile="0" resource="0" file="Source/Gui.h"/>
+      <FILE id="p88B5Z" name="MainComponent.h" compile="0" resource="0" file="Source/MainComponent.h"/>
+      <FILE id="fOu8JL" name="MainComponent.cpp" compile="1" resource="0"
+            file="Source/MainComponent.cpp"/>
+      <FILE id="efqCPD" name="Main.cpp" compile="1" resource="0" file="Source/Main.cpp"/>
+    </GROUP>
+  </MAINGROUP>
+  <EXPORTFORMATS>
+    <XCODE_MAC targetFolder="Builds/MacOSX">
+      <CONFIGURATIONS>
+        <CONFIGURATION isDebug="1" name="Debug"/>
+        <CONFIGURATION isDebug="0" name="Release"/>
+      </CONFIGURATIONS>
+      <MODULEPATHS>
+        <MODULEPATH id="juce_core" path="../../JuceLatest/JUCE/modules"/>
+        <MODULEPATH id="juce_events" path="../../JuceLatest/JUCE/modules"/>
+        <MODULEPATH id="juce_graphics" path="../../JuceLatest/JUCE/modules"/>
+        <MODULEPATH id="juce_data_structures" path="../../JuceLatest/JUCE/modules"/>
+        <MODULEPATH id="juce_gui_basics" path="../../JuceLatest/JUCE/modules"/>
+        <MODULEPATH id="juce_gui_extra" path="../../JuceLatest/JUCE/modules"/>
+        <MODULEPATH id="juce_cryptography" path="../../JuceLatest/JUCE/modules"/>
+        <MODULEPATH id="juce_video" path="../../JuceLatest/JUCE/modules"/>
+        <MODULEPATH id="juce_opengl" path="../../JuceLatest/JUCE/modules"/>
+        <MODULEPATH id="juce_audio_basics" path="../../JuceLatest/JUCE/modules"/>
+        <MODULEPATH id="juce_audio_devices" path="../../JuceLatest/JUCE/modules"/>
+        <MODULEPATH id="juce_audio_formats" path="../../JuceLatest/JUCE/modules"/>
+        <MODULEPATH id="juce_audio_processors" path="../../JuceLatest/JUCE/modules"/>
+        <MODULEPATH id="juce_audio_utils" path="../../JuceLatest/JUCE/modules"/>
+      </MODULEPATHS>
+    </XCODE_MAC>
+    <VS2019 targetFolder="Builds/VisualStudio2019">
+      <CONFIGURATIONS>
+        <CONFIGURATION isDebug="1" name="Debug"/>
+        <CONFIGURATION isDebug="0" name="Release"/>
+      </CONFIGURATIONS>
+      <MODULEPATHS>
+        <MODULEPATH id="juce_video"/>
+        <MODULEPATH id="juce_opengl"/>
+        <MODULEPATH id="juce_gui_extra"/>
+        <MODULEPATH id="juce_gui_basics"/>
+        <MODULEPATH id="juce_graphics"/>
+        <MODULEPATH id="juce_events"/>
+        <MODULEPATH id="juce_data_structures"/>
+        <MODULEPATH id="juce_cryptography"/>
+        <MODULEPATH id="juce_core"/>
+        <MODULEPATH id="juce_audio_utils"/>
+        <MODULEPATH id="juce_audio_processors"/>
+        <MODULEPATH id="juce_audio_formats"/>
+        <MODULEPATH id="juce_audio_devices"/>
+        <MODULEPATH id="juce_audio_basics"/>
+      </MODULEPATHS>
+    </VS2019>
+  </EXPORTFORMATS>
+  <MODULES>
+    <MODULE id="juce_audio_basics" showAllCode="1" useLocalCopy="0" useGlobalPath="0"/>
+    <MODULE id="juce_audio_devices" showAllCode="1" useLocalCopy="0" useGlobalPath="0"/>
+    <MODULE id="juce_audio_formats" showAllCode="1" useLocalCopy="0" useGlobalPath="0"/>
+    <MODULE id="juce_audio_processors" showAllCode="1" useLocalCopy="0" useGlobalPath="0"/>
+    <MODULE id="juce_audio_utils" showAllCode="1" useLocalCopy="0" useGlobalPath="0"/>
+    <MODULE id="juce_core" showAllCode="1" useLocalCopy="0" useGlobalPath="0"/>
+    <MODULE id="juce_cryptography" showAllCode="1" useLocalCopy="0" useGlobalPath="0"/>
+    <MODULE id="juce_data_structures" showAllCode="1" useLocalCopy="0" useGlobalPath="0"/>
+    <MODULE id="juce_events" showAllCode="1" useLocalCopy="0" useGlobalPath="0"/>
+    <MODULE id="juce_graphics" showAllCode="1" useLocalCopy="0" useGlobalPath="0"/>
+    <MODULE id="juce_gui_basics" showAllCode="1" useLocalCopy="0" useGlobalPath="0"/>
+    <MODULE id="juce_gui_extra" showAllCode="1" useLocalCopy="0" useGlobalPath="0"/>
+    <MODULE id="juce_opengl" showAllCode="1" useLocalCopy="0" useGlobalPath="0"/>
+    <MODULE id="juce_video" showAllCode="1" useLocalCopy="0" useGlobalPath="0"/>
+  </MODULES>
+  <LIVE_SETTINGS>
+    <OSX buildEnabled="1" continuousRebuildEnabled="1"/>
+  </LIVE_SETTINGS>
+  <JUCEOPTIONS/>
+</JUCERPROJECT>
