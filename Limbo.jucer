@@ -7,11 +7,11 @@
     <GROUP id="{1CA2ABF7-4BF2-985F-AFFF-4F2F5794826E}" name="Source">
       <GROUP id="{2A87BAC4-29A7-FFB8-116D-46BDB4B8BA5A}" name="Resources">
         <GROUP id="{6D5EC750-CC7A-B7A0-2C1A-0D12A29F7AAD}" name="Assets">
-          <FILE id="kvrIit" name="Limbo-Page3.png" compile="0" resource="1" file="../../../Documents/Files from Windows/Cabbage/Augmentation/Assets/Limbo-Page3.png"/>
-          <FILE id="gj8JI6" name="MainButtonOff.png" compile="0" resource="1"
-                file="../../../Dropbox/Mac Share/Juce Projects/Limbo/Assets/MainButtonOff.png"/>
-          <FILE id="Uo8Euz" name="MainButtonOn.png" compile="0" resource="1"
-                file="../../../Dropbox/Mac Share/Juce Projects/Limbo/Assets/MainButtonOn.png"/>
+          <FILE id="IkU9bG" name="Limbo-Page3.png" compile="0" resource="1" file="Assets/Limbo-Page3.png"/>
+          <FILE id="NcHuQ2" name="MainButtonOff.png" compile="0" resource="1"
+                file="Assets/MainButtonOff.png"/>
+          <FILE id="gK2JhH" name="MainButtonOn.png" compile="0" resource="1"
+                file="Assets/MainButtonOn.png"/>
         </GROUP>
       </GROUP>
       <GROUP id="{06853DE6-C5FB-EE25-08C3-053804326747}" name="GuiComponents">
